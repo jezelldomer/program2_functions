@@ -8,11 +8,12 @@ def get_price():
     _price = float(input("Enter the price of an apple: "))
     return _price
 
-
-
+def divide(moneyF, priceF):
+    _result = moneyF/priceF   
+    return _result
 
 
 
 money = get_money()
 price = get_price()
-
+result = math.floor(divide(money,price))
