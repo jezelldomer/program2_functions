@@ -18,8 +18,12 @@ def total(moneyF, priceF):
     change = moneyF - _result2
     return change
 
+def display(result,change):
+    print (f"you can buy {result}apples, and your change is {change}") 
+    
 money = get_money()
 price = get_price()
 result = math.floor(divide(money,price))
 result2 = float(total(money,price))
+print(f"You can buy {result} and your change is PHP {result2}. ") 
 
