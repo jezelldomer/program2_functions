@@ -1,10 +1,10 @@
 import math
 
-def question_1():
+def input_apple():
     apple_buy = int(input("Enter how many apples you want to buy: "))
     return apple_buy
 
-def question_2(): 
+def input_orange(): 
     orange_buy = int(input("Enter how many oranges you want to buy: "))
     return orange_buy
 
@@ -20,8 +20,8 @@ def display(total):
 apple_price = 20
 orange_price = 25
 
-apple = question_1() 
-orange = question_2()
+apple = input_apple() 
+orange = input_orange()
 total = total_1(apple, orange)
 
 print(f"Hi, the total amount is {total}. Thank you. ")
