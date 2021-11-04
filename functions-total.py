@@ -24,4 +24,4 @@ apple = question_1()
 orange = question_2()
 total = total_1(apple, orange)
 
-print(f"Hi, the total amount for the apples and oranges is PHP {total}. Thank you. ")
+print(f"Hi, the total amount is {total}. Thank you. ")
